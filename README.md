@@ -21,7 +21,7 @@ id,target
 ### Modelos
 Para este caso utilizei Ensemble Learning XgBoost e CatBoost (Decision Tree).
 
-### Difculdades
+### Dificuldades
 A quantidade de fetures anonimizadas foi um problema, pois foi a primeira vez que me deparei com está situação, então tentei algumas alternativas que me auxiliassem:
 
 * **Feature selection:** Técnica para selecionar somentes às **K** melhores features, baseado em um critério em uma _**função (f)**_, para meu caso que tomei como classificação utilizei **ANOVA**.
