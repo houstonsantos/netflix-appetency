@@ -24,9 +24,9 @@ Para este caso utilizei Ensemble Learning XgBoost e CatBoost (Decision Tree).
 ### Difculdades
 A quantidade de fetures anonimizadas foi um problema, pois foi a primeira vez que me deparei com está situação, então tentei algumas alternativas que me auxiliassem:
 
-* Feature selection: Técnica de explorar as features e selecionar somentes às **K** melhores, baseado em um critério em uma _**função (f)**_, para meu caso que tomei como classificação utilizei **ANOVA**.
-* Cross Validation: Porem não obtive melhoras.
-* Tuning: Também utilizei pela primeira vez uma à **Otimização Bayesiana** com a lib bayes_opt, foi muito bom esse estudo, porem o resultado final não melhorou o resultado obtido antes. Mas para este caso acredito que, com um melhor conhecimento da técnica e dos hiperparâmetros poderia conseguir uma melhora.
+* **Feature selection:** Técnica para selecionar somentes às **K** melhores features, baseado em um critério em uma _**função (f)**_, para meu caso que tomei como classificação utilizei **ANOVA**.
+* **Cross Validation:** Porem não obtive melhoras.
+* **Tuning:** Também utilizei pela primeira vez uma à **Otimização Bayesiana** com a lib [**bayes_opt**](https://github.com/fmfn/BayesianOptimization), foi muito bom esse estudo, porem o resultado final não melhorou o resultado obtido antes. Mas para este caso acredito que, com um melhor conhecimento da técnica e dos hiperparâmetros poderia conseguir uma melhora.
 
 ### Leaderboard
 
